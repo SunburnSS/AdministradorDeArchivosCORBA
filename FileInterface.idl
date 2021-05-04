@@ -1,0 +1,4 @@
+interface FileInterface {
+   typedef sequence<octet> Data;
+   string cuentaLineas(in string fileName);
+};
